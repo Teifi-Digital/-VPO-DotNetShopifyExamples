@@ -1,0 +1,17 @@
+.customers-view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 4rem;
+}
+
+.customers-view-search {
+    flex: 1;
+}
+
+.customers {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto;
+}

@@ -1,0 +1,38 @@
+.customer {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+}
+
+.customer-properties {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.customer-property {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.customer-property-key {
+    font-weight: bold;
+    min-width: 64px;
+    margin: 0;
+}
+
+.customer-property-value {
+    margin: 0;
+}
+
+.customer-property-textarea {
+    width: 100%;
+    min-height: 32px;
+}
+
+.customer-footer {
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+    margin-top: 1rem;
+}
